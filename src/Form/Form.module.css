@@ -1,0 +1,69 @@
+#tabla{
+    display: inline-flex;
+   
+   
+    margin: 2rem;
+    text-align: center;
+    animation:  border-c  10s ease 0s infinite normal none;
+}
+
+#titul{
+    text-align: center;
+    font-family: cursive;
+    text-shadow:-2px 2px 13px #ff0000,0px 0px 30px #fafafa,4px 0px 0px #5e5e5e;
+}
+#Formulario{
+   display: block;
+    margin: 0.5rem;
+    background: #fafafa;
+    
+}
+#EmailB{
+    background: #5e5e5e;
+    margin: 0.5rem;
+    
+}
+#PasswordB{
+    background: #5e5e5e;
+    margin: 0.5rem;
+}
+#BotonB{
+    text-align: center;
+}
+#input1{
+  background: #ff0000;
+  border: 0;
+  
+ 
+}
+#input2{
+    border: 0;
+background: #10c738;
+ 
+}
+@keyframes border-c {
+    0%{
+        border-top:10px inset #ffffff;
+        border-right:10px inset #000000;
+        border-bottom:10px inset #ffffff;
+        border-left:10px double #141414;
+    }
+    33%{
+        border-top:10px inset #000000;
+        border-right:10px inset #ffffff;
+        border-bottom:10px double #000000;
+        border-left:10px inset #ffffff;
+    }
+    66%{
+        border-top:10px inset #ffffff;
+        border-right:10px double #000000;
+        border-bottom:10px solid #ffffff;
+        border-left:10px inset #000000;
+    }
+    100%{
+        border-top:10px inset #000000;
+        border-right:10px inset #ffffff;
+        border-bottom:10px double #000000;
+        border-left:10px inset #ffffff;
+    }
+}

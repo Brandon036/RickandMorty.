@@ -1,0 +1,59 @@
+#Card1{
+    color: transparent;
+    display: inline-block;
+    background-image: url(https://www.geeksvgs.com/files/2017/09/morty.png);
+    background-size: 20.7rem;
+    border-radius: 2rem;
+    color: rgb(44, 7, 7);
+    transform: scale(0.71);
+    text-align: center;
+    text-shadow: 2px 2px rgb(231, 26, 26);
+    box-shadow: 1px 1px 2rem rgb(20, 243, 0);
+    animation: rotar 1.5s ease 1s 1 normal forwards;
+}
+@keyframes rotar {
+    0% {
+        opacity: 0;
+        transform: rotate(-540deg) scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0) scale(0.70);
+    }
+}
+#Card1:hover{
+   
+    background-image: url(https://www.xtrafondos.com/wallpapers/vertical/rick-y-morty-portal-dimensional-6603.jpg);
+    transition: 1s;
+    
+}
+
+#boton{
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px 5px rgb(20, 243, 0);
+   background-color: transparent;
+   font-size: 1rem;
+   margin: 1rem;
+   border: transparent;
+}
+#boton:hover{
+    cursor: not-allowed;
+ transition: 2s;
+}
+
+#imagen{
+    border-radius: 25rem;
+    margin: 1rem;
+    cursor: pointer;
+    
+   
+    
+}
+#imagen:hover{
+    
+   
+    opacity: 0.7;
+    
+}

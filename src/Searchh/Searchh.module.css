@@ -1,0 +1,13 @@
+#Input{
+  border: transparent;
+  background-color: rgb(63, 63, 63);
+}
+#ButtonA{
+    background: linear-gradient(90deg,  rgb(63, 63, 63)0%, #5a5a5a 100%);
+    border: transparent;
+   color: rgb(39, 39, 39);
+}
+#ButtonA:hover{
+    transition: 1.5s;
+    color: rgb(218, 218, 218);
+}

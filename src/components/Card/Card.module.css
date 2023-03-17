@@ -1,0 +1,80 @@
+#target{
+
+    background:url(https://tse3.mm.bing.net/th?id=OIP.tjWlf6CpSBdrah3iRjLpPAHaNH&pid=Api&P=0);
+    background-size: 20.7rem;
+    
+    text-align: center;
+    border-radius: 2rem;
+    display: inline-block;
+    box-shadow: 1px 1px 2rem #ffffff;
+    color: #000000;
+    text-transform: uppercase;
+    animation: rotar 1.5s ease 1s 1 normal forwards;
+	transform: scale(0.70);
+}
+@keyframes rotar {
+    0% {
+        opacity: 0;
+        transform: rotate(-540deg) scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0) scale(0.70);
+    }
+}
+#target:hover{
+    background: url(https://www.xtrafondos.com/wallpapers/vertical/rick-and-morty-en-nave-4518.jpg);
+    background-size: 20.7rem;
+    
+    transition: 2s;
+    animation: bajar 4s ease 0s 1 normal forwards;
+    color: rgb(255, 255, 255);
+}
+@keyframes bajar {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0.76);
+	}
+}
+#imagen{
+    border-radius: 1rem;
+    text-shadow: 10px 1px 2rem #050505;
+    margin: 1rem;
+    cursor: pointer;
+    
+}
+#imagen:hover{
+ transition: 0.7s;
+ border-radius: 25rem;
+ transform: rotate(5deg);
+}
+#x{
+    color: transparent;
+    margin: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    font-family: none;
+    font-size: none;
+    background: none;
+    box-shadow: none;
+}
+#x:hover{
+    color: #ffffff;
+    transition: 0.7s;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 0px;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 1.4rem;
+    background: red;
+    box-shadow: 1px 1px 1rem #050505;
+    
+}

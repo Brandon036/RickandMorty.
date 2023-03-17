@@ -1,0 +1,84 @@
+#targget{
+
+ background: url(https://i.gifer.com/origin/19/196b0b9b030e0f42b0a62d372185742f.gif);
+ display: inline-block;
+  background-size: 20.7rem;
+  box-shadow: -1px 5px 11px 0px #95e1ee;
+  font-family: monospace;
+  color: rgb(187, 9, 9);
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  text-align: center;
+  white-space: pre-line;
+  margin: auto;
+  border-color: transparent;
+  animation: rotar 1.5s ease 1s 1 normal forwards;
+  transform: scale(0.75);
+    text-align: center;
+}
+@keyframes rotar {
+  0% {
+      opacity: 0;
+      transform: rotate(-540deg) scale(0);
+  }
+
+  100% {
+      opacity: 1;
+      transform: rotate(0) scale(0.75);
+  }
+}
+#targget:hover{
+  background: url(https://media1.tenor.com/images/e30ad83d153a1275e2e6372eb9476e72/tenor.gif?itemid=11389473) ;
+  background-repeat: no-repeat;
+  background-position-x:0rem;
+  background-position-y: 12rem;
+  background-size: 20.7rem;
+  animation: bajar 4s ease 0s 1 normal forwards;
+}
+@keyframes bajar {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0.76);
+	}
+}
+#imagen{
+ border-radius: 50rem;
+ opacity: 0.7;
+}
+#imagen:hover{
+  opacity: 0.1;
+}
+
+#boton{
+    border-radius: 0.7rem;
+    margin: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px;
+    color: antiquewhite;
+    font-family: monospace;
+}
+#boton:hover{
+    background-color: rgb(252, 247, 247);
+    transition: 2s;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0.8;
+		transform: scale(0.2);
+	}
+
+	80% {
+		opacity: 0;
+		transform: scale(1.2);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(2.2);
+	}
+}
